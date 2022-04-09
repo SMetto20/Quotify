@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayComponent implements OnInit {
 
+  vote(){
+    
+  }
   constructor() { }
 
   ngOnInit(): void {

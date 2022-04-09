@@ -9,7 +9,7 @@ import { Quote } from './quote';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-quote:Quote = new Quote("enter quote","author","person")
+quote:Quote = new Quote("","","")
 // quote = {
 //   quote:"i am great"
   
