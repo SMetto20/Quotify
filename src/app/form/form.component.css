@@ -1,0 +1,21 @@
+.form{
+    font-size:22px;
+    margin-left: 20vh;
+    margin-top: 20vh;
+   
+}
+.input{
+    height:15vh;
+    width: 40vh;
+    margin-left: 3vh;
+    margin-right: 2vh;
+    font-size: 20px;
+}
+.more{
+    font-size: 22px;
+    margin-left: 78vh;
+    margin-top: 8vh;
+}
+.kindly{
+    margin-left: 8vh;
+}
