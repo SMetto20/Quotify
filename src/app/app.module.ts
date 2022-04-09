@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { FormComponent } from './form/form.component';
 import { DisplayComponent } from './display/display.component';
 import { DetailsComponent } from './details/details.component';
+import { LightquoteDirective } from './lightquote.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DetailsComponent } from './details/details.component';
     AboutComponent,
     FormComponent,
     DisplayComponent,
-    DetailsComponent
+    DetailsComponent,
+    LightquoteDirective
   ],
   imports: [
     BrowserModule,
