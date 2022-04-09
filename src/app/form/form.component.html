@@ -13,21 +13,21 @@
     <form>
         <div class="form">
             <label for=""> Insert the words of wisdom here</label>
-            <input class="input" type="text" />
+            <input class="input" type="text" name="quote" [(ngModel)] = "quote.quote">
             <label for=""> Tell who the author is </label>
-            <input class="input" type="text" /><br>
+            <input class="input" type="text" name="author"[(ngModel)] = "quote.author"/><br>
         </div>
         <div class="more">
             <label class="kindly"> kindly let us know who you are</label><br>
-            <input class="input" type="text" /><br>
-            <button>submit</button>
+            <input class="input" type="text" name="person" [(ngModel)] = "quote.person"/><br>
+            <button (click)="log()">submit</button>
         </div>
 
         <div>
             <button>Vote</button>
             <button>Delete</button>
         </div>
-
+       <p>{{quote.quote}}</p>
     </form>
 </body>
 
