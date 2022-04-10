@@ -15,43 +15,44 @@
         <div class="overall">
             <h1>TIME TO SUBMIT SOME OF YOUR FAVORITE QUOTES</h1>
             <div class="align">
-                
-            <div class="form">
-                <label for=""> words of wisdom </label>
-                <input class="input" type="text" name="quote" [(ngModel)]="quote.quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label for=""> Tell us who the author is </label>
-                <input class="input" type="text" name="author" [(ngModel)]="quote.author" /><br>
-            </div>
-            <div class="more">
-                <label class="kindly"> let us know who you are</label><br>
-                <input class="input" type="text" name="person" [(ngModel)]="quote.person" /><br>
-            </div>
-            <!-- <button (click)="log()" class="submit">submit</button> -->
+
+                <div class="form">
+                    <label for=""> words of wisdom </label>
+                    <input class="input" type="text" name="quote"
+                        [(ngModel)]="quote.quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for=""> Tell us who the author is </label>
+                    <input class="input" type="text" name="author" [(ngModel)]="quote.author" /><br>
+                </div>
+                <div class="more">
+                    <label class="kindly"> let us know who you are</label><br>
+                    <input class="input" type="text" name="person" [(ngModel)]="quote.person" /><br>
+                </div>
+                <!-- <button (click)="log()" class="submit">submit</button> -->
             </div>
         </div>
 
     </form>
-    
+
     <h1 class="is"> YOUR QUOTE OF THE DAY IS</h1>
-    
-    
-    <div class ="display">
-       
-       
-    <app-display> {{quote.quote}} </app-display>
-    
+
+
+    <div class="display">
+
+
+        <app-display> {{quote.quote}} </app-display>
+
     </div>
-    <p>this quote has received  {{quote.upVote - quote.downVote}} votes</p>
+    <p>this quote has received {{quote.upVote - quote.downVote}} votes</p>
     <div class="votes">
         <button class="vote" (click)="vote()">Up vote</button>
-        <button class="downvote"(click)="downVote()">Down vote</button>
+        <button class="downvote" (click)="downVote()">Down vote</button>
     </div>
-    
+
     <div appLightquote class="details">
-     <app-details> said by {{quote.author}} and submitted by {{quote.person}}</app-details>
+        <app-details> said by {{quote.author}} and submitted by {{quote.person}}</app-details>
     </div>
-    
-    
+
+
 </body>
 
 </html>
