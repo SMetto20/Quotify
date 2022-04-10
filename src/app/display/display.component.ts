@@ -9,6 +9,11 @@ import { Quote } from '@angular/compiler';
 export class DisplayComponent implements OnInit {
  
     // vote(){
+    //   alert(" NB; each up vote and down vote begins at a value of zero.")
+    // }
+    // delete(){
+    //   alert("are you sure you want to delete this quote?")
+    //        $('.hide').hide()     
     // }
    
   // vote(){

@@ -27,6 +27,12 @@
 
     </form>
     <app-display>{{quote.quote}}</app-display>
+    <div>
+        <button class="vote" (click)="vote()">Up vote</button>
+        <button class="delete" (click)="downVote()">Down vote</button>
+    </div>
+     <app-details appLightquote >{{quote.author}}</app-details>
+    
 </body>
 
 </html>
