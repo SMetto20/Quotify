@@ -5,6 +5,8 @@ import { Directive, ElementRef } from '@angular/core';
 })
 export class LightquoteDirective {
 
-  constructor( highlight:ElementRef) { }
+  constructor( private highlight:ElementRef) { 
+    highlight.nativeElement.style.backgroundColor = "crimson"
+  }
 
 }

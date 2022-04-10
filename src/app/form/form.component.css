@@ -1,7 +1,8 @@
 .form{
     font-size:22px;
     margin-left: 20vh;
-    margin-top: 20vh;
+
+    
    
 }
 .input{
@@ -10,6 +11,7 @@
     margin-left: 3vh;
     margin-right: 2vh;
     font-size: 20px;
+    background: none;
 }
 .more{
     font-size: 22px;
@@ -21,6 +23,12 @@
 }
 .overall{
 
+    background-image:url(/assets/books.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
 }
 .submit{
     margin-left: 95vh;

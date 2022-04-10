@@ -16,7 +16,7 @@ quote:Quote = new Quote("","","")
 // }
 log(){
   // console.log(this.quote.quote,this.quote.author,this.quote.person)
-  document.write("app-details")
+  
 }
   constructor() {}
 

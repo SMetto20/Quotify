@@ -1,4 +1,8 @@
 .about{
+    display: flex;
     text-align: center;
     font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }

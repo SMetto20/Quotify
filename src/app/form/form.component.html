@@ -11,20 +11,22 @@
 
 <body>
     <form>
-        <div clas="overall">
-        <div class="form">
-            <label for=""> Insert the words of wisdom here</label>
-            <input class="input" type="text" name="quote" [(ngModel)] = "quote.quote">
-            <label for=""> Tell who the author is </label>
-            <input class="input" type="text" name="author"[(ngModel)] = "quote.author"/><br>
-        </div>
-        <div class="more">
-            <label class="kindly"> kindly let us know who you are</label><br>
-            <input class="input" type="text" name="person" [(ngModel)] = "quote.person"/><br>
-        </div>
+        <div class="overall">
+            <div class="form">
+                <label for=""> Insert the words of wisdom here</label>
+                <input class="input" type="text" name="quote" [(ngModel)]="quote.quote">
+                <label for=""> Tell who the author is </label>
+                <input class="input" type="text" name="author" [(ngModel)]="quote.author" /><br>
+            </div>
+            <div class="more">
+                <label class="kindly"> kindly let us know who you are</label><br>
+                <input class="input" type="text" name="person" [(ngModel)]="quote.person" /><br>
+            </div>
             <button (click)="log()" class="submit">submit</button>
         </div>
+
     </form>
+    <app-display>{{quote.quote}}</app-display>
 </body>
 
 </html>
