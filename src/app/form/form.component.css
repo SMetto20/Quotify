@@ -1,21 +1,25 @@
 .form{
     font-size:22px;
-    margin-left: 20vh;
+    margin-left: 15vh;
 
     
    
 }
 .input{
-    height:15vh;
-    width: 40vh;
+    height:20vh;
+    width: 50vh;
     margin-left: 3vh;
     margin-right: 2vh;
     font-size: 20px;
-    background: none;
+    background-color: rgb(255, 252, 252);
+    border-radius: 4px;
+    opacity: .75;
+    
+    
 }
 .more{
     font-size: 22px;
-    margin-left: 78vh;
+    margin-left: 70vh;
     margin-top: 8vh;
 }
 .kindly{
@@ -23,16 +27,49 @@
 }
 .overall{
 
-    background-image:url(/assets/books.jpg);
-    height: 80vh;
+    background-image:url(/assets/man.jpg);
+    height: 100vh;
+    /* background-color: rgb(104, 101, 101); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
+    color:white;
+   font-weight: bold;
 }
 .submit{
     margin-left: 95vh;
     margin-top: 6vh;
     height:6vh;
     width: 10vh;
+}
+.votes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 0vh;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 40px;
+    color: red;
+    margin-top: 12vh;
+}
+.align{
+    position: absolute;
+    margin-top: 32vh;
+    
+}
+h1{ position: absolute;
+   
+    margin-left: 55vh;
+    font-size: 45px;
+    color: white;
+    margin-top: 1vh;
+}
+label{
+    font-size: 25px;
 }

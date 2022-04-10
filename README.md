@@ -1,27 +1,53 @@
 # Quotify
+By Sandra Metto
+## Table of contents
+1. [Description](#Description)
+2. [Technology](#Technology)
+3. [Dependancies](#Dependncies)
+3. [Installattion](#Installation)
+4. [License](#Lisence)
+5. [Website](#Website)
+6. [About-author](#About-athor)
+### Description
+This project lets users express their favorite quotes and alows them to vote for them as well.This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+### Technology
+1. Html
+2. Css
+3. Java script
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+```Html 
+<image src="" alt="">
 
-## Development server
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```css
+h1{
 
-## Code scaffolding
+}
+```
+```Java script
+function(){
+    alert("hello")
+}
+```
+```Type script
+    name:string
+```
+### Dependancies
+1. project needs angular cli to run
+2. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Installation
+1. Requirments
+2. Installation process
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Website
+[Website](https://SMetto20.github.io/Quotify/)
+### License
+[MIT LICENSE](https://github.com/SMetto20/Quotify/blob/main/LICENSE)
 
-## Running unit tests
+### About-author
+Linked in-[Sandra Metto](https://www.linkedin.com/in/sandra-metto-68500319a/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

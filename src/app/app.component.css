@@ -6,7 +6,7 @@
     height:100vh;
     width: 100%;
     font-size: 18px;
-    background-image: url(../assets/books.jpg);
+    background-image: url(../assets/glasses.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,4 +28,13 @@ a:hover{
     background-color: black;
     height:5vh;
     color: white;
+}
+h1{
+ color: white;
+ font-size: 60px;
+}
+p{
+    color: white;
+    font-size: 35px;
+    
 }

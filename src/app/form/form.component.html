@@ -12,26 +12,34 @@
 <body>
     <form>
         <div class="overall">
+            <h1>Time to submit some of your favorite quotes</h1>
+            <div class="align">
+                
             <div class="form">
-                <label for=""> Insert the words of wisdom here</label>
-                <input class="input" type="text" name="quote" [(ngModel)]="quote.quote">
-                <label for=""> Tell who the author is </label>
+                <label for=""> words of wisdom </label>
+                <input class="input" type="text" name="quote" [(ngModel)]="quote.quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for=""> Tell us who the author is </label>
                 <input class="input" type="text" name="author" [(ngModel)]="quote.author" /><br>
             </div>
             <div class="more">
-                <label class="kindly"> kindly let us know who you are</label><br>
+                <label class="kindly"> let us know who you are</label><br>
                 <input class="input" type="text" name="person" [(ngModel)]="quote.person" /><br>
             </div>
-            <button (click)="log()" class="submit">submit</button>
+            <!-- <button (click)="log()" class="submit">submit</button> -->
+            </div>
         </div>
 
     </form>
+    <div class ="display">
     <app-display>{{quote.quote}}</app-display>
-    <div>
-        <button class="vote" (click)="vote()">Up vote</button>
-        <button class="delete" (click)="downVote()">Down vote</button>
     </div>
-     <app-details appLightquote >{{quote.author}}</app-details>
+    <div class="votes">
+        <button class="vote" (click)="vote()">Up vote</button>
+        <button class="delete"(click)="downVote()">Down vote</button>
+    </div>
+    <div appLightquote>
+     <app-details>{{quote.author}}</app-details>
+    </div>
     
 </body>
 
