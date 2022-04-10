@@ -30,7 +30,8 @@ function(){
     alert("hello")
 }
 ```
-```Type script
+```Typescript
+
     name:string
 ```
 ### Dependancies

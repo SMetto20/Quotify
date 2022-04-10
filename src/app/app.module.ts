@@ -9,6 +9,7 @@ import { FormComponent } from './form/form.component';
 import { DisplayComponent } from './display/display.component';
 import { DetailsComponent } from './details/details.component';
 import { LightquoteDirective } from './lightquote.directive';
+import { Quote } from './form/quote';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LightquoteDirective } from './lightquote.directive';
     FormComponent,
     DisplayComponent,
     DetailsComponent,
-    LightquoteDirective
+    LightquoteDirective,
+    
   ],
   imports: [
     BrowserModule,

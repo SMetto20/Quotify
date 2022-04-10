@@ -35,6 +35,7 @@
     background-size: cover;
     color:white;
    font-weight: bold;
+   margin-bottom: 10vh;
 }
 .submit{
     margin-left: 95vh;
@@ -53,10 +54,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 80vh;
     font-size: 40px;
-    color: red;
-    margin-top: 12vh;
+    color:white;
+    margin-top: 30vh;
+    background-image: url(/assets/tap.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 .align{
     position: absolute;
@@ -66,10 +72,48 @@
 h1{ position: absolute;
    
     margin-left: 55vh;
-    font-size: 45px;
+    font-size: 31px;
     color: white;
     margin-top: 1vh;
 }
 label{
     font-size: 25px;
+}
+.vote{
+    background-color: green;
+    height: 6vh;
+    width: 12vh;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-right: 5vh;
+}
+.downvote{
+    background-color: red;
+    height: 6vh;
+    width: 12vh;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-right: 5vh;
+}
+.is{
+    color: black;
+    font-size: 40px;
+    margin-left: 70vh;
+   
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-size: 40px;
+    color:white;
+    margin-top: 10vh;
+    background-image: url(/assets/woman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }

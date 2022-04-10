@@ -24,12 +24,13 @@ quote: Quote  = new Quote("","","",0,0)
 vote(){
 
     // alert(" NB; each up vote and down vote begins at a value of zero.")
-    alert("this Quote has" + " " +this.quote.upVote++ + " "+"votes")
+     +this.quote.upVote++ 
 
   }
 
   downVote(){
-    alert("this Quote has"+" " + (this.quote.upVote -- - (this.quote.downVote ))+" "+"votes")
+  
+    this.quote.upVote --
     
         
   }

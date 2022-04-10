@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="form.component.css">
+    <link rel="stylesheet" href="/src/styles.css">
 </head>
 
 <body>
     <form>
         <div class="overall">
-            <h1>Time to submit some of your favorite quotes</h1>
+            <h1>TIME TO SUBMIT SOME OF YOUR FAVORITE QUOTES</h1>
             <div class="align">
                 
             <div class="form">
@@ -30,16 +31,26 @@
         </div>
 
     </form>
+    
+    <h1 class="is"> YOUR QUOTE OF THE DAY IS</h1>
+    
+    
     <div class ="display">
-    <app-display>{{quote.quote}}</app-display>
+       
+       
+    <app-display> {{quote.quote}} </app-display>
+    
     </div>
+    <p>this quote has received  {{quote.upVote - quote.downVote}} votes</p>
     <div class="votes">
         <button class="vote" (click)="vote()">Up vote</button>
-        <button class="delete"(click)="downVote()">Down vote</button>
+        <button class="downvote"(click)="downVote()">Down vote</button>
     </div>
-    <div appLightquote>
-     <app-details>{{quote.author}}</app-details>
+    
+    <div appLightquote class="details">
+     <app-details> said by {{quote.author}} and submitted by {{quote.person}}</app-details>
     </div>
+    
     
 </body>
 

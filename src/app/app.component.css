@@ -26,8 +26,9 @@ a:hover{
 }
 .copy{
     background-color: black;
-    height:5vh;
+    height:20vh;
     color: white;
+    
 }
 h1{
  color: white;
@@ -37,4 +38,29 @@ p{
     color: white;
     font-size: 35px;
     
+}
+.quotify{
+
+   position:absolute;
+    font-size: 32px;
+    margin-right:180vh;
+    margin-top: 0.5vh;
+}
+.contact{
+    
+    font-size: 20px;
+    
+}
+.info{
+    font-size: 20px;
+}
+.follow{
+    position: absolute;
+    margin-left: 90vh;
+    margin-top: 10vh;
+}
+.stylecont{
+   position: absolute;
+    margin-top: 8vh;
+    margin-left: 8vh;
 }
