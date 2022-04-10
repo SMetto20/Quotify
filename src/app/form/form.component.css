@@ -100,7 +100,7 @@ label{
 .is{
     color: black;
     font-size: 40px;
-    margin-left: 70vh;
+    margin-left: 75vh;
    
 }
 .details{
@@ -116,4 +116,16 @@ label{
     background-position: center;
     background-size: cover;
 
+}
+.voter-header{
+    color: black;
+}
+.lets-vote{
+    margin-left: 70vh;
+    margin-top: 7vh;
+    font-size: 24px;
+    margin-bottom: 5vh;
+}
+h2{
+    font-size: 60px;
 }

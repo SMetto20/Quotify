@@ -33,7 +33,7 @@
 
     </form>
 
-    <h1 class="is"> YOUR QUOTE OF THE DAY IS</h1>
+    <h1 class="is"> You can view the quote below</h1>
 
 
     <div class="display">
@@ -42,14 +42,17 @@
         <app-display> {{quote.quote}} </app-display>
 
     </div>
-    <p>this quote has received {{quote.upVote - quote.downVote}} votes</p>
+    <div class="lets-vote">
+    <h2> vote for this quote</h2>
+    <p>this quote currently has <strong>{{quote.upVote - quote.downVote}}</strong> votes</p>
+    </div>
     <div class="votes">
         <button class="vote" (click)="vote()">Up vote</button>
         <button class="downvote" (click)="downVote()">Down vote</button>
     </div>
 
     <div appLightquote class="details">
-        <app-details> said by {{quote.author}} and submitted by {{quote.person}}</app-details>
+        <app-details> Said by {{quote.author}} and submitted by {{quote.person}}</app-details>
     </div>
 
 
