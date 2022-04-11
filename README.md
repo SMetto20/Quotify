@@ -14,6 +14,7 @@ This project lets users express their favorite quotes and alows them to vote for
 1. Html
 2. Css
 3. Java script
+4. Typescript
 
 ```Html 
 <image src="" alt="">
