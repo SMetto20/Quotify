@@ -27,7 +27,9 @@
                     <label class="kindly"> let us know who you are</label><br>
                     <input class="input" type="text" name="person" [(ngModel)]="quote.person" /><br>
                 </div>
-                <!-- <button (click)="log()" class="submit">submit</button> -->
+               
+                
+               
             </div>
         </div>
 
@@ -36,10 +38,10 @@
     <h1 class="is"> You can view the quote below</h1>
 
 
-    <div class="display">
+    <div class="display"  >
 
 
-        <app-display appLightquote> {{quote.quote}} </app-display>
+        <app-display appLightquote > {{quote.quote}} </app-display>
         <p class="time">This quote was created on<strong> {{date|timecheck}}</strong></p>
 
     </div>
