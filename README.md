@@ -45,7 +45,7 @@ function(){
 2. Installation process
 
 ### Website
-[Website](https://SMetto20.github.io/Quotify/)
+[Website](https://quotify-kappa.vercel.app/)
 ### License
 [MIT LICENSE](https://github.com/SMetto20/Quotify/blob/main/LICENSE)
 

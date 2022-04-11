@@ -26,7 +26,7 @@ a:hover{
 }
 .copy{
     background-color: black;
-    height:20vh;
+    height:30vh;
     color: white;
     
 }
@@ -56,11 +56,11 @@ p{
 }
 .follow{
     position: absolute;
-    margin-left: 90vh;
+    margin-left: 120vh;
     margin-top: 10vh;
 }
 .stylecont{
    position: absolute;
-    margin-top: 8vh;
-    margin-left: 8vh;
+    margin-top: 10vh;
+    margin-left: 40vh;
 }
