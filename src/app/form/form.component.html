@@ -39,13 +39,13 @@
     <div class="display">
 
 
-        <app-display> {{quote.quote}} </app-display>
+        <app-display appLightquote> {{quote.quote}} </app-display>
         <p class="time">This quote was created on<strong> {{date|timecheck}}</strong></p>
 
     </div>
     <div class="lets-vote">
     <h2> vote for this quote</h2>
-    <p>this quote currently has <strong></strong> votes</p>
+    <p>this quote currently has <strong>{{quote.upVote - quote.downVote}}</strong> votes</p>
     </div>
     <div class="votes">
         <button class="vote" (click)="vote()">Up vote</button>
@@ -53,7 +53,7 @@
     </div>
    
     <div appLightquote class="details">
-        <app-details appLightquote> Said by {{quote.author}} and submitted by {{quote.person}}</app-details>
+        <app-details > Said by {{quote.author}} and submitted by {{quote.person}}</app-details>
     <p class="total">total votes {{quote.upVote - quote.downVote}}</p>
     </div>
 
