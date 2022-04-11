@@ -10,6 +10,7 @@ import { DisplayComponent } from './display/display.component';
 import { DetailsComponent } from './details/details.component';
 import { LightquoteDirective } from './lightquote.directive';
 import { Quote } from './form/quote';
+import { TimecheckPipe } from './pipes/timecheck.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { Quote } from './form/quote';
     DisplayComponent,
     DetailsComponent,
     LightquoteDirective,
+    TimecheckPipe,
     
   ],
   imports: [

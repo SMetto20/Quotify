@@ -129,3 +129,14 @@ label{
 h2{
     font-size: 60px;
 }
+.time{
+    position:absolute;
+    font-size: 20px;
+    margin-top: 15vh;
+    color:white;
+    font-weight:bold;
+}
+.total{
+    position:absolute;
+    margin-top: 15vh;
+}
