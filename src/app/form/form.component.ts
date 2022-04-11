@@ -9,6 +9,7 @@ import { Quote } from './quote';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
+  
 quote: Quote  = new Quote("","","",0,0)
                  
 

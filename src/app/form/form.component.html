@@ -50,9 +50,9 @@
         <button class="vote" (click)="vote()">Up vote</button>
         <button class="downvote" (click)="downVote()">Down vote</button>
     </div>
-
+    <p>this quote was submited on {{myDate}</p>
     <div appLightquote class="details">
-        <app-details> Said by {{quote.author}} and submitted by {{quote.person}}</app-details>
+        <app-details appLightquote> Said by {{quote.author}} and submitted by {{quote.person}}</app-details>
     </div>
 
 
